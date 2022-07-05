@@ -13,4 +13,19 @@
       }
     }
   }
+
+  .section-two{
+
+    h1{
+      text-align: center;
+    }
+
+    .info{
+      flex-direction: column;
+
+      h3{
+        text-align: center;
+      }
+    }
+  }
 }

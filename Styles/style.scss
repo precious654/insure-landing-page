@@ -9,6 +9,109 @@ body{
 
 header{
   position: relative;
+  padding: 20px 0px;
+  color: hsl(256, 26%, 20%);
+
+  nav{
+    display: flex;
+    justify-content: space-between;
+
+    h1{
+      font-family: $font-three;
+    }
+
+    a{
+      text-decoration: none;
+      color: inherit;
+    }
+
+    ul{
+      list-style-type: none;
+
+      li{
+        display: inline;
+        margin-inline-start: 2rem;
+        font-size: 12px;
+        font-weight: bold;
+      }
+
+      li:hover{
+        color: #000000;
+      }
+
+      .plans{
+        border: 1px solid hsl(256, 26%, 20%);
+        padding: 10px 20px;
+      }
+
+      .plans:hover{
+        background-color: #000000;
+        border: none;
+        color: #FFFFFF;
+      }
+    }
+  }
+}
+
+.section-one{
+  background-color: hsl(256, 26%, 20%);
+
+  .intro{
+    color: #FFFFFF;
+    padding: 20px 0px;
+
+    h1{
+      font-family: $font-two;
+      margin-block-end: 1rem;
+      letter-spacing: 0.15rem;
+      font-weight: normal;
+    }
+
+
+    button{
+      margin-block-start: 1rem;
+      font-family: $font-one;
+      padding: 10px 20px;
+      background-color: inherit;
+      border: 1px solid #FFFFFF;
+      text-transform: uppercase;
+      font-size: 10px;
+      font-weight: bolder;
+      color: #FFFFFF;
+    }
+
+    button:hover{
+      background-color: #FFFFFF;
+      color: hsl(256, 26%, 20%);
+    }
+  }
+}
+
+.section-two{
+  margin-block-start: 5rem;
+  padding-block-start: 10px;
+
+  h1{
+    font-family: $font-two;
+    font-weight: lighter;
+    font-size: 40px;
+    margin-block-end: 3rem;
+  }
+
+  .info{
+    display: flex;
+    gap: 2rem;
+
+    h3{
+      margin-block-start: 1rem;
+      margin-block-end: 1rem;
+    }
+
+    p{
+      margin-block-end: 2rem;
+      padding-inline-end: 10px;
+    }
+  }
 }
 
 .attribution{
