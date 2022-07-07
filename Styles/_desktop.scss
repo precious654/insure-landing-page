@@ -32,5 +32,15 @@
     }
   }
 
+  footer{
 
+    .top-item{
+      justify-content: space-between;
+    }
+
+    .bottom-item{
+      justify-content: space-between;
+      padding-inline-end: 10rem;
+    }
+  }
 }

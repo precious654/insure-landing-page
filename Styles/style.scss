@@ -5,6 +5,7 @@
 body{
   font-family: $font-one;
   font-size: 15px;
+  color: hsl(256, 26%, 20%);
 }
 
 header{
@@ -66,24 +67,6 @@ header{
       letter-spacing: 0.15rem;
       font-weight: normal;
     }
-
-
-    button{
-      margin-block-start: 1rem;
-      font-family: $font-one;
-      padding: 10px 20px;
-      background-color: inherit;
-      border: 1px solid #FFFFFF;
-      text-transform: uppercase;
-      font-size: 10px;
-      font-weight: bolder;
-      color: #FFFFFF;
-    }
-
-    button:hover{
-      background-color: #FFFFFF;
-      color: hsl(256, 26%, 20%);
-    }
   }
 }
 
@@ -114,7 +97,47 @@ header{
   }
 }
 
+.section-three{
+  color: #FFFFFF;
+  background-color: hsl(256, 26%, 20%);
+  padding: 2rem;
+}
+
+footer{
+  padding-block-start: 2rem;
+
+  a{
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .top-item{
+    display: flex;
+    border-bottom: 1px solid violet;
+    padding-block-end: 1rem;
+    margin-block-end: 2rem;
+
+    img{
+      margin-inline-start: 0.5rem;
+    }
+  }
+
+  .bottom-item{
+    display: flex;
+
+    ul{
+      list-style-type: none;
+
+      li{
+        font-weight: bold;
+        margin-block-start: 1rem;
+      }
+    }
+  }
+}
+
 .attribution{
+  margin-block-start: 3rem;
   font-size: 11px;
   text-align: center;
 }

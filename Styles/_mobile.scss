@@ -16,6 +16,10 @@
 
   .section-two{
 
+    .image{
+      text-align: center;
+    }
+
     h1{
       text-align: center;
     }
@@ -26,6 +30,20 @@
       h3{
         text-align: center;
       }
+    }
+  }
+
+  footer{
+    text-align: center;
+
+    .top-item{
+      flex-direction: column;
+      gap: 0.8rem;
+    }
+
+    .bottom-item{
+      flex-direction: column;
+      gap: 2rem;
     }
   }
 }
