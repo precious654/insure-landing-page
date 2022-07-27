@@ -18,7 +18,8 @@ header{
     justify-content: space-between;
 
     h1{
-      font-family: $font-three;
+      font-family: $font-two;
+      letter-spacing: 0.2rem;
     }
 
     a{
@@ -50,6 +51,54 @@ header{
         border: none;
         color: #FFFFFF;
       }
+    }
+  }
+}
+
+.nav-slide{
+  inline-size: 0;
+  block-size: 100%;
+  position: fixed;
+  top: 0;
+  right: 0;
+  background-color: hsl(256, 26%, 20%);
+  z-index: 2;
+  transition: 0.3s;
+
+  ul{
+    text-align: center;
+    margin-block-start: 3rem;
+    list-style-type: none;
+
+    li{
+      font-weight: bold;
+      letter-spacing: 0.2rem;
+      margin-block-start: 2rem;
+      font-size: 20px;
+
+      a{
+        text-decoration: none;
+        color: #FFFFFF;
+      }
+    }
+
+    .plans{
+      border: 1px solid #FFFFFF;
+      padding: 15px;
+    }
+  }
+
+  .flex{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 10px;
+    background-color: #FFFFFF;
+
+    p{
+      font-weight: bold;
+      font-size: 20px;
+      letter-spacing: 0.2rem;
+      font-family: $font-two;
     }
   }
 }
